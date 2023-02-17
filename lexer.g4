@@ -27,3 +27,5 @@ TRY: 'try';
 UNN: 'unn';
 USE: 'use';
 VCLASS: 'class';
+WHEN: 'when';
+WHILE: 'while';
