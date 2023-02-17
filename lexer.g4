@@ -14,6 +14,7 @@ EXT: 'ext';
 FALSE: 'false';
 FLOAT: 'float';
 FOR: 'for';
+LET: 'let';
 IF: 'if';
 IMPORT: 'import';
 INS: 'ins';
