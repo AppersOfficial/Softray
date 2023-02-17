@@ -12,5 +12,7 @@ IMPORT: "import";
 INT: "int";
 MOB: "mob";
 OVERBANGLE: "overbangle";
+PUBLIC: "public";
+SUPER: "super";
 UNN: "unn";
 VCLASS: "class";
