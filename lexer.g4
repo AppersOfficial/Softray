@@ -16,6 +16,7 @@ IF: 'if';
 IMPORT: 'import';
 INS: 'ins';
 INT: 'int';
+IT: 'it';
 MOB: 'mob';
 NEW: 'new';
 OVERBANGLE: 'overbangle';
