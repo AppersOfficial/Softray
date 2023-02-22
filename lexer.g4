@@ -3,7 +3,7 @@ lexer grammar SoftrayLexer;
 AS: 'as';
 AT: 'at';
 CASE: 'case';
-CLASS: 'Class';
+CLASS: 'class';
 CONST: 'const';
 CONTINUE: 'continue';
 BANGLE: 'bangle';
@@ -11,13 +11,13 @@ BOOL: 'bool';
 DECK: 'deck';
 ELSE: 'else';
 EXCEPT: 'except';
-EXT: 'ext';
+EXTOF: 'extof';
 FLOAT: 'float';
 FOR: 'for';
 LET: 'let';
 IF: 'if';
 IMPORT: 'import';
-INS: 'ins';
+INSOF: 'insof';
 INT: 'int';
 IT: 'it';
 MOB: 'mob';
@@ -30,6 +30,21 @@ SUPER: 'super';
 TRY: 'try';
 UNN: 'unn';
 USE: 'use';
-VCLASS: 'class';
+VAR: 'var';
 WHEN: 'when';
 WHILE: 'while';
+
+Digits
+    : ([0-9]+);
+
+Float
+    : Digits.Digits
+    | .Digits;
+
+Bool
+    : true
+    | false;
+
+String
+    : \"([aA-Zz]+)\"
+    | \'([aA-Zz]+)\';
