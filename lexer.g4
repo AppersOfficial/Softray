@@ -34,6 +34,21 @@ VAR: 'var';
 WHEN: 'when';
 WHILE: 'while';
 
+ADD: '+';
+SUB: '-';
+MUL: '*';
+SPL: '/';
+ESP: '//';
+ROD: '%';
+EXP: '**';
+ATR: '=';
+INQ: '==';
+EQL: '===';
+GT: '>';
+LT: '<';
+GTE: '>=';
+LTE: '<=';
+
 Digits
     : ([0-9]+);
 
@@ -55,10 +70,10 @@ Body: K_O * K_C;
 
 Statement: P_O * P_C;
 
-P_O: "(";
+P_O: '(';
 
-P_C: ")";
+P_C: ')';
 
-K_O: "{";
+K_O: '{';
 
-K_C: "}";
+K_C: '}';
