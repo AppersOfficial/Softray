@@ -48,6 +48,16 @@ GT: '>';
 LT: '<';
 GTE: '>=';
 LTE: '<=';
+INS: '?';
+AND: '|';
+OR: '||';
+ASSIGN_ADD: '+=';
+ASSIGN_SUB: '-=';
+ASSIGN_MUL: '*=';
+ASSIGN_SPL: '/=';
+ASSIGN_ESP: '//=';
+ASSIGN_ROD: '%=';
+ASSIGN_EXP: '**=';
 
 Digits
     : ([0-9]+);
