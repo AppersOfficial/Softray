@@ -49,5 +49,16 @@ String
     : "([aA-Zz]+)"
     | '([aA-Zz]+)';
 
-Ident
-    : ([aA-Zz]+);
+Ident: ([aA-Zz]+);
+
+Body: K_O * K_C;
+
+Statement: P_O * P_C;
+
+P_O: "(";
+
+P_C: ")";
+
+K_O: "{";
+
+K_C: "}";
