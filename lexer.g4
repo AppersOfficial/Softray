@@ -8,7 +8,6 @@ CONST: 'const';
 CONTINUE: 'continue';
 BANGLE: 'bangle';
 BOOL: 'bool';
-DECK: 'deck';
 ELSE: 'else';
 EXCEPT: 'except';
 EXTOF: 'extof';
