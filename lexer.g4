@@ -46,5 +46,5 @@ Bool
     | false;
 
 String
-    : \"([aA-Zz]+)\"
-    | \'([aA-Zz]+)\';
+    : "([aA-Zz]+)"
+    | '([aA-Zz]+)';
