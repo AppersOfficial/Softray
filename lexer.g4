@@ -48,3 +48,6 @@ Bool
 String
     : "([aA-Zz]+)"
     | '([aA-Zz]+)';
+
+Ident
+    : ([aA-Zz]+);
